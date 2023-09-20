@@ -46,7 +46,7 @@ def create_image(sequence):
 
 synthetic_images = [create_image(sequence) for sequence in synthetic_data]
 synthetic_images = np.array(synthetic_images)
-synthetic_images = synthetic_images / 255.0  # Normalize os valores para o intervalo [0, 1]
+synthetic_images = synthetic_images / 255.0  
 
 
 ### Passo 4: Criar o Modelo Generator
