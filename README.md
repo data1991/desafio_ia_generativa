@@ -8,6 +8,8 @@ Visite o Desafio [Projeto](https://colab.research.google.com/drive/1lqwelLZn4aeQ
 
 ### Ferramentas utilizadas
 
+<img src="https://pluspng.com/img-png/python-logo-png-open-2000.png" width="40" height="40"/>
+<img src="https://cdn-1.webcatalog.io/catalog/colaboratory/colaboratory-icon-filled.png" width="40" height="40"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png" width="40" height="40"/>
 <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/>
 
