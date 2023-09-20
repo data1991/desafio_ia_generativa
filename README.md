@@ -31,8 +31,7 @@ synthetic_data = generate_synthetic_data(num_samples, sequence_length)
 
 ### Passo 3: Pré-processamento de Dados (ETL)
 
-def create_image(sequence):
-    # Define o mapeamento de bases para cores (preto e branco)
+def create_image(sequence): 
     base_colors = {'A': 0, 'C': 127, 'G': 255, 'T': 255}
 
     # Inicializa uma matriz vazia para a imagem
