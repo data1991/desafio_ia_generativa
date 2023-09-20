@@ -2,7 +2,7 @@
 Desafio de Projeto - Explorando IA Generativa em um Pipeline de ETL com Python
 
 ### Objetivo do Projeto: 
-Criar um modelo GAN para gerar imagens de sequenciamento genético.
+Criar um modelo GAN para gerar imagens de sequenciamento genético fictícias em preto e branco.
 
 ### Veja o passo-a-passo desse projeto e refassa ou melhore-o 
 
