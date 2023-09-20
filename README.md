@@ -28,6 +28,7 @@ num_samples = 1000
 sequence_length = 50
 synthetic_data = generate_synthetic_data(num_samples, sequence_length)
 
+
 ### Passo 3: Pré-processamento de Dados (ETL)
 
 def create_image(sequence):
@@ -43,11 +44,10 @@ def create_image(sequence):
 
     return image
 
-Crie imagens a partir das sequências de DNA
- 
 synthetic_images = [create_image(sequence) for sequence in synthetic_data]
 synthetic_images = np.array(synthetic_images)
 synthetic_images = synthetic_images / 255.0  # Normalize os valores para o intervalo [0, 1]
+
 
 ### Passo 4: Criar o Modelo Generator
 
@@ -68,6 +68,7 @@ def build_generator():
 
 generator = build_generator()
 
+
 ### Passo 5: Criar o Modelo Discriminator
 
 def build_discriminator(input_shape):
@@ -84,6 +85,7 @@ def build_discriminator(input_shape):
 
 discriminator = build_discriminator(synthetic_images.shape[1:])
 
+
 ### Passo 6: Criar o Modelo GAN
 
 def build_gan(generator, discriminator):
@@ -95,6 +97,7 @@ def build_gan(generator, discriminator):
     return gan
 
 gan = build_gan(generator, discriminator)
+
 
 ### Passo 7: Compilar os Modelos
 
@@ -136,9 +139,8 @@ def plot_generated_images(epoch, generator, examples=10, dim=(1, 10), figsize=(1
     plt.savefig(f"gan_generated_image_epoch_{epoch}.png")
     plt.show()
 
- Treinamento do GAN
- 
 train_gan(generator, discriminator, gan, synthetic_images, epochs=100, batch_size=128)
+
 
 
 
