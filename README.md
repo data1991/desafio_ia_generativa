@@ -43,7 +43,8 @@ def create_image(sequence):
 
     return image
 
-# Crie imagens a partir das sequências de DNA
+Crie imagens a partir das sequências de DNA
+ 
 synthetic_images = [create_image(sequence) for sequence in synthetic_data]
 synthetic_images = np.array(synthetic_images)
 synthetic_images = synthetic_images / 255.0  # Normalize os valores para o intervalo [0, 1]
@@ -135,7 +136,8 @@ def plot_generated_images(epoch, generator, examples=10, dim=(1, 10), figsize=(1
     plt.savefig(f"gan_generated_image_epoch_{epoch}.png")
     plt.show()
 
-# Treinamento do GAN
+ Treinamento do GAN
+ 
 train_gan(generator, discriminator, gan, synthetic_images, epochs=100, batch_size=128)
 
 
