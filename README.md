@@ -8,7 +8,7 @@ Visite o Desafio [Projeto](https://colab.research.google.com/drive/1lqwelLZn4aeQ
 
 ### Ferramentas utilizadas
 
-<img src="https://www.bing.com/images/search?view=detailV2&ccid=8SHG1OHr&id=5309435A5E38677EA49ADD545B11EAEC5C42BBC3&thid=OIP.8SHG1OHrBwCvUV7i_xPGpAHaHa&mediaurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F022%2F227%2F364%2Fnon_2x%2Fopenai-chatgpt-logo-icon-free-png.png&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.f121c6d4e1eb0700af515ee2ff13c6a4%3Frik%3Dw7tCXOzqEVtU3Q%26pid%3DImgRaw%26r%3D0&exph=980&expw=980&q=logo+chat+gpt+png&form=IRPRST&ck=BE129CF4ED74F884A89B2748865CE579&selectedindex=1&ajaxhist=0&ajaxserp=0&vt=2" width="40" height="40"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png" width="40" height="40"/>
 <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/>
 
 ### Objetivo do Projeto: 
