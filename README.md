@@ -41,9 +41,7 @@ def create_image(sequence):
     # Preenche a imagem com base nas sequências de DNA
     for i, base in enumerate(sequence):
         image[i, 0] = base_colors[base]
-
     return image
-
 synthetic_images = [create_image(sequence) for sequence in synthetic_data]
 synthetic_images = np.array(synthetic_images)
 synthetic_images = synthetic_images / 255.0  
