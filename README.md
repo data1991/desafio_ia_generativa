@@ -16,7 +16,7 @@ Visite o Desafio [Projeto](https://colab.research.google.com/drive/1lqwelLZn4aeQ
 ### Objetivo do Projeto: 
 Criar um modelo GAN para gerar imagens de sequenciamento genético fictícias em preto e branco.
 
-### Veja o passo-a-passo desse projeto e refassa ou melhore-o 
+### Veja o passo-a-passo desse projeto e refaça-o ou melhore-o 
 
 ### Passo 1: Importar Bibliotecas
 
