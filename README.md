@@ -1,6 +1,11 @@
 # <img src="https://avatars1.githubusercontent.com/u/26231823?s=280&v=4" width="80" height="80"> Desafio IA Generativa com Python
 Desafio de Projeto - Explorando IA Generativa em um Pipeline de ETL com Python
 
+
+### Link do Projeto
+
+Visite o Desafio [Projeto](https://colab.research.google.com/drive/1lqwelLZn4aeQKYh3lJUSRFuUxkLReYB6#scrollTo=jkmrk8RdooP9)
+
 ### Objetivo do Projeto: 
 Criar um modelo GAN para gerar imagens de sequenciamento genético fictícias em preto e branco.
 
